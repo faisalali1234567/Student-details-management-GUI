@@ -1,0 +1,26 @@
+ /* class selector  */
+
+.ali{
+    color: rgb(255, 0, 0);
+}
+html{
+    background-color: rgba(182, 164, 164, 0.295);
+}
+
+/* class selector xcan be apllied for many types but the id shld be applied only for one item */
+/* id selector */
+
+#main{
+    color: rgb(255, 0, 43);
+    font-style: italic;
+}
+
+/* attribute selector */
+h1[draggable]{
+    color: royalblue;
+}
+
+/* universal selctor */
+*{
+    color: deepskyblue;
+}
